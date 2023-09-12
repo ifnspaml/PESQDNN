@@ -34,7 +34,7 @@ Note that in this project the clean speech signals are taken from the [NTT wideb
 2. ```std_for_Complex_Spectrum.mat``` (The standard deviation value is used for normalizing the complex input spectrum of the PESQ-DNN to unit variance. The shape of the data (1 * 512): First 257 and the rest 255 numbers in the vector represent the meastandard deviationn value of the **non-redundant** real and imaginary parts, respectively, with an FFT size of 512)
 3. Trained Models:
     - ```TRAINED_MODEL.h5``` (Trained PESQ-DNN model in .h5 format)
-- All these three files are saved in './Training_data/'
+- All these three files are saved in './Trained_model/'
 4. ```audio_processing.py``` (This Python script contains audio pre-processing functions, e.g., windowing, framing, and the following FFT. Detailed settings are introduced in the paper. This Python script is modified and extracted from part of the work from Maximilian Strake)
 5. Inference Scripts:
     - ```Inference_PESQ_DNN_FLE.py``` (This Python script predicts the PESQ scores of the coded speech wave (.wav) file with one of the proposed PESQ-DNN variations employing FLE.)

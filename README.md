@@ -59,9 +59,9 @@ If you use the scripts in your research, please cite
 @article{xu2023PESQDNN,
   author =  {Z. Xu, Z. Zhao and T. Fingscheidt},
   title =   {{Coded Speech Quality Measurement by a Non-Intrusive PESQ-DNN}},
-  journal = {arXiv preprint arXiv: ***},
+  journal = {arXiv preprint arXiv: 2304.09226},
   year =    {2023},
-  month =   {Mar.}
+  month =   {Apr.}
 }
 ```
 

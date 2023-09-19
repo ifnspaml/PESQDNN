@@ -24,9 +24,9 @@ Wideband codecs such as AMR-WB or EVS are widely used in (mobile) speech communi
 - Install [TensorFlow](https://www.tensorflow.org/) 1.5.0 and [Keras](https://www.tensorflow.org/) 2.1.4
 - Some Python packages need to be installed, please see detailed information in the .yaml file (```environment.yaml```)
 
-### Datasets and Reproduce the Results
+### Datasets
 
-Note that in this project the clean speech signals are taken from the [NTT wideband speech database](https://www.ntt-at.com/product/multilingual/). If you want to reproduce the exact results, the test need to be done with the same speech data (see details in the paper).
+Note that in this project the clean speech signals are taken from the [NTT wideband speech database](https://www.ntt-at.com/product/multilingual/). If you want to reproduce the exact results, the training and test must be done with the same speech data (see details in the paper).
 
 ### Inference Preparation
  - To run the inference script, you need:

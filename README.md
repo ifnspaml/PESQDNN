@@ -54,18 +54,18 @@ python Inference_PESQ_DNN_BLE_Attention.py
 ```
  ## Citation
 
-If you use the scripts in your research, please cite
-
+- This work is accepted for publication in IEEE/ACM Transactions on Audio, Speech, and Language Processing. The published article is accessible with this IEEE Xplore link: [https://ieeexplore.ieee.org/document/10256199](https://ieeexplore.ieee.org/document/10256199).
+- If you use the scripts in your research, please cite
 ```
 @article{xu2023PESQDNN,
   author =  {Z. Xu, Z. Zhao and T. Fingscheidt},
   title =   {{Coded Speech Quality Measurement by a Non-Intrusive PESQ-DNN}},
-  journal = {arXiv preprint arXiv: 2304.09226},
+  journal = {IEEE/ACM Transactions on Audio, Speech, and Language Processing},
   year =    {2023},
-  month =   {Apr.}
+  month =   {Sept.}
+  DOI = {10.1109/TASLP.2023.3317574}
 }
 ```
-
 ## Acknowledgements
 - The author would like to thank Marvin Sach and Jan Pirklbauer for the advice concerning the construction of these source code in GitHub.
 - The author would also like to thank Maximilian Strake for sharing the script for audio pre-processing.
